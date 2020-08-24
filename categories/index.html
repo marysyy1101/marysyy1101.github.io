@@ -23,8 +23,8 @@
 <meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="八点半的星光">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-08-24T08:10:07.000Z">
-<meta property="article:modified_time" content="2020-08-24T08:43:51.025Z">
+<meta property="article:published_time" content="2020-08-24T09:21:33.000Z">
+<meta property="article:modified_time" content="2020-08-24T09:22:02.562Z">
 <meta property="article:author" content="Mary Syy">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
@@ -373,6 +373,33 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: '',
+    appKey: '',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+
+     
 
 
 
